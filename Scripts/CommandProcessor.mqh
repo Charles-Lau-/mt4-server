@@ -62,5 +62,6 @@ TradeCommandProcessor::TradeCommandProcessor(void)
    m_commands.set("SELL",new SellCommand);
    m_commands.set("CLOSE",new CloseCommand);
    m_commands.set("QUIT",new QuitCommand);
+   m_commands.set("HIS_ORDERS", new HistoricalOrdersCommand);
   }
 //+------------------------------------------------------------------+
